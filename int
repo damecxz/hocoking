@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vote For The King</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial Black', sans-serif;
+      background: black;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+    .container {
+      position: relative;
+      z-index: 1;
+    }
+    h1 {
+      font-size: 3em;
+      text-transform: uppercase;
+      text-shadow: 0 0 20px gold, 0 0 40px #ffcc00;
+    }
+    .crown {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -60%);
+      opacity: 0.15;
+      z-index: 0;
+      width: 80%;
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Crown_of_Saint_Wenceslas.svg/512px-Crown_of_Saint_Wenceslas.svg.png" alt="Crown" class="crown">
+    <h1>Vote For The King</h1>
+  </div>
+</body>
+</html>
